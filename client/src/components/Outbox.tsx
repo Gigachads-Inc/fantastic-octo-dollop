@@ -3,7 +3,7 @@ export const Outbox = () => {
         <div className="outbox-container">
             <form>
                 <input type="text" className="outbox-field" id="" />
-                <button className="outbox-button" > Send </button>
+                <button className="outbox-button"> Send </button>
             </form>
         </div>
     )   

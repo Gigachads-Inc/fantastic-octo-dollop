@@ -1,8 +1,12 @@
-type ButtonProps = {
-    handleClick: () => void
-}
-export const Button = (props: ButtonProps) => {
+
+
+export const Button = () => {
+    const handleClick = () => {
+        console.log("Clicking...");
+    }
+
+
     return (
-        <button onClick={props.handleClick} className="submit-button"> Click me :3 </button>
+        <button onClick={handleClick} className="submit-button"> Click me :3 </button>
     )
 }
