@@ -1,1 +1,3 @@
-virtualServer/
+dump.rdb
+README.md
+backend/__pycache__
