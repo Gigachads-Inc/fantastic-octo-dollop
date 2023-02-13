@@ -1,6 +1,5 @@
 
 from fastapi import FastAPI
-import json
 from pydantic import BaseModel
 
 import redis
